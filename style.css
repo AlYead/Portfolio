@@ -1,3 +1,8 @@
+/* important lines */
+/* background: url(./images/developer.png), url(./images/header_bg.png), #fff8f3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat; */
+
 /* Univarsal Design */
 * {
   margin: 0px;
@@ -22,6 +27,20 @@
   cursor: pointer;
 }
 
+.section-heading {
+  max-width: 827px;
+  text-align: center;
+}
+.section-heading h2 {
+  font-size: 35px;
+}
+.section-heading p {
+  font-size: 18px;
+  color: #757575;
+  margin: 30px 0px;
+  line-height: 30px;
+}
+
 /* Colors */
 .orange {
   color: #fd6e0a;
@@ -37,7 +56,9 @@ header {
   padding-top: 50px;
 
   background: url(./images/developer.png), url(./images/header_bg.png), #fff8f3;
-  background-position: top left, bottom right;
+  background-position:
+    top left,
+    bottom right;
   background-repeat: no-repeat;
 }
 
@@ -112,4 +133,30 @@ nav {
   width: 100%;
   height: auto;
   display: block; /*its for remove gap under the pictures*/
+}
+
+/* About Section */
+
+#about {
+  padding-top: 94px;
+}
+#about .about-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 131px 157px;
+}
+
+#about .about-container .about-info {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info .info-card h4 {
+  font-size: 20px;
+}
+.about-info .info-card p {
+  font-size: 20px;
+  color: #757575;
+  line-height: 30px;
 }
